@@ -2,7 +2,7 @@
 # Base16 - Gnome Terminal color scheme install script
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Pixiefloss"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="Pixiefloss"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="pixiefloss"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -58,7 +58,7 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#42395d', '#ef6155', '#48b685', '#e6c000', '#ae81ff', '#ff857f', '#c2ffdf', '#f8f8f2', '#75507b', '#ef6155', '#48b685', '#d5a425', '#c5a3ff', '#f1568e', '#c2ffff', '#f8f8f0']"
+        dset palette "['#42395d', '#ff857f', '#48b685', '#e6c000', '#ae81ff', '#ef6155', '#c2ffdf', '#f8f8f2', '#75507b', '#f1568e', '#5adba2', '#d5a425', '#c5a3ff', '#ef6155', '#c2ffff', '#f8f8f0']"
         dset background-color "'#241f33'"
         dset foreground-color "'#d1cae8'"
         dset bold-color "'#d1cae8'"
@@ -108,7 +108,7 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#42395d:#ef6155:#48b685:#e6c000:#ae81ff:#ff857f:#c2ffdf:#f8f8f2:#75507b:#ef6155:#48b685:#d5a425:#c5a3ff:#f1568e:#c2ffff:#f8f8f0"
+gset string palette "#42395d:#ff857f:#48b685:#e6c000:#ae81ff:#ef6155:#c2ffdf:#f8f8f2:#75507b:#f1568e:#5adba2:#d5a425:#c5a3ff:#ef6155:#c2ffff:#f8f8f0"
 gset string background_color "#241f33"
 gset string foreground_color "#d1cae8"
 gset string bold_color "#d1cae8"
