@@ -1,4 +1,4 @@
 # pixiefloss
-A variation on the sailorhg's Fairyfloss theme
+A variation on sailorhg's Fairyfloss theme
 
 ![pixiefloss.png](pixiefloss.png)
